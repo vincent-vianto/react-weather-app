@@ -1,0 +1,11 @@
+.loaderWrapper,
+.errorWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 80vh;
+    margin: auto;
+    flex-flow: column;
+    text-align: center;
+}

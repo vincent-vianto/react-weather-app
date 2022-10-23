@@ -1,0 +1,27 @@
+.detailWrapper{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(146, 143, 143, 0.219);
+    text-align: center;
+    min-height: 44vh;
+}
+
+.detailBlock {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.iconWithText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textFlowDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

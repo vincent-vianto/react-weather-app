@@ -1,0 +1,22 @@
+
+.formSearchBox {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid;
+}
+
+.formSearchBox:focus{
+    outline: none;
+    box-shadow: none !important;
+    border: 0 ;
+    border-bottom: 1px solid !important;
+}
+
+.formButton{
+    outline: none;
+    box-shadow: none !important;
+}
+
+.formButton:active{
+    font-weight: bold;
+}

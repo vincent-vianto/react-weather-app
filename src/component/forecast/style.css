@@ -1,0 +1,21 @@
+.forecastWrapper {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.forecastWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.forecastBlock {
+    flex-shrink: 0;
+    flex-basis: 200px;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(146, 143, 143, 0.219);
+    text-align: center;
+}
+

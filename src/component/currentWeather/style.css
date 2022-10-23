@@ -1,0 +1,23 @@
+.currentBlock {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(146, 143, 143, 0.219);
+    text-align: center;
+    min-height: 44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.iconWithText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:481px) {
+    .currentBlock{
+        min-height: 35vh;
+    }
+}
